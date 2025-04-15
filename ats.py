@@ -26,8 +26,8 @@ def rank_resume(job_description, resumes):
 
 
 #STREAMLIT(FRONTEND)
-st.title('Resume Ranker')
-st.header("job description")
+st.title('RESUME RANKER')
+st.header("Job Description")
 job_description = st.text_area('Enter the job description')
 st.header("Upload Resumes")
 resumes = st.file_uploader('Upload resumes', type=['pdf'], accept_multiple_files=True)
